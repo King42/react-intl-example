@@ -1,0 +1,9 @@
+{
+  "message.argument": "Hallo, {name}! 👋",
+  "message.currency-format": "Formatierte Währung: {Betrag, Zahl, ::Währung/USD}",
+  "message.number-format": "Formatierte Zahl: {Anzahl, Zahl, ::K}",
+  "message.plural": "{count, plural, ein {# Artikel} andere {# Artikel}}",
+  "message.select": "{Geschlecht, auswählen, männlich {Herr} weiblich {Frau} andere {Benutzer}}",
+  "message.simple": "Eine einfache Botschaft.",
+  "message.text-format": "Hallo <b>John</b>!"
+}
