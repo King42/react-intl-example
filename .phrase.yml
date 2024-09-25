@@ -1,0 +1,34 @@
+phrase:
+  access_token: ae5994ee6692fe5b0bd8b0ba01429966a64dba5210eb965ab4f6958640f4a0c0
+  project_id: 69b546b4aa19b0ae97f0e61d435f3c24
+  file_format: react_simple_json
+  
+  push:
+    sources:
+    - file: ./src/lang/en.json
+      #params:
+        #file_format: react_simple_json
+        #locale_id: 70df0203fa73232880bc0f459f8e765b
+        #tags: TAG_1,TAG_2 (string) #List of tags separated by comma to be associated with the new keys contained in the upload.
+        #update_translations: false
+        #update_descriptions: false
+        #skip_upload_tags: false
+        #skip_unverification: false
+        #file_encoding: ENCODING (string) #Enforces a specific encoding on the file contents. Valid options are "UTF-8", "UTF-16", "UTF-16BE", "UTF-16LE" and "ISO-8859-1".
+        #locale_mapping: {"LANGUAGE_CODE": "COLUMN"} (object) #Optional, format specific (Excel, CSV) mapping between locale names and the columns the translations to those locales are contained in.
+        #autotranslate: false (boolean) #If set, translations for the uploaded language will be fetched automatically.  
+  pull:
+    targets:
+    - file: ./src/lang/<locale_code>.json
+      #params:
+        #file_format: react_simple_json
+        #locale_id: LOCALE_ID (string) #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        #tags: TAG_1, TAG_2 (string) #Limit results to keys tagged with a list of comma separated tag names.
+        #include_empty_translations: false
+        #exclude_empty_zero_forms: false
+        #include_translated_keys: true
+        #keep_notranslate_tags: false
+        #encoding: ENCODING (string) #Enforces a specific encoding on the file contents. Valid options are "UTF-8", "UTF-16", "UTF-16BE", "UTF-16LE" and "ISO-8859-1".
+        #include_unverified_translations: true (boolean) #If set to false unverified translations are excluded
+        #use_last_reviewed_version: false (boolean) #If set to true the last reviewed version of a translation is used. This is only available if the review workflow is enabled for the project.
+        #fallback_locale_id: LOCALE_ID (string) #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
