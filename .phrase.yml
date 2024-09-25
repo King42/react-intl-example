@@ -6,9 +6,9 @@ phrase:
   push:
     sources:
     - file: ./src/lang/en.json
-      #params:
+      params:
         #file_format: react_simple_json
-        #locale_id: 70df0203fa73232880bc0f459f8e765b
+        locale_id: 70df0203fa73232880bc0f459f8e765b
         #tags: TAG_1,TAG_2 (string) #List of tags separated by comma to be associated with the new keys contained in the upload.
         #update_translations: false
         #update_descriptions: false
